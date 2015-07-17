@@ -1,0 +1,19 @@
+{
+  "name": "webaudio-test",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NoahYarian/webaudio-test",
+  "authors": [
+    "Noah Yarian <noah.yarian@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

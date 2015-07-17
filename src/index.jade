@@ -1,0 +1,42 @@
+doctype html
+html(lang="en-US")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Testing
+    link(rel="stylesheet" href="css/main.css")
+  body
+    .knobs
+      #knob1
+      #knob2
+      #knob3
+      #knob4
+    .sliders
+      #slider1
+      #slider2
+      #slider3
+      #slider4
+    .pads.aud
+      #pad1(data-sound="assets/SD0050.WAV")
+      #pad2(data-sound="assets/CH.WAV")
+      #pad3(data-sound="assets/OH00.WAV")
+      #pad4(data-sound="assets/CP.WAV")
+    .keyboard.aud
+      #key0(data-sound="assets/SD0050.WAV")
+      #key1.black(data-sound="assets/OH00.WAV")
+      #key2(data-sound="assets/CH.WAV")
+      #key3.black(data-sound="assets/CP.WAV")
+      #key4(data-sound="assets/SD0050.WAV")
+      #key5(data-sound="assets/OH00.WAV")
+      #key6.black(data-sound="assets/CH.WAV")
+      #key7(data-sound="assets/CP.WAV")
+      #key8.black(data-sound="assets/SD0050.WAV")
+      #key9(data-sound="assets/OH00.WAV")
+      #keyA.black(data-sound="assets/CH.WAV")
+      #keyB(data-sound="assets/CP.WAV")
+      #keyC(data-sound="assets/SD0050.WAV")
+      #keyD.black(data-sound="assets/OH00.WAV")
+      #keyE(data-sound="assets/CH.WAV")
+    script(src="lib/build.js")
+    script(src="js/main.js")

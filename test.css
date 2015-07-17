@@ -1,0 +1,10 @@
+#sp div {
+  width: 150px;
+  height: 150px;
+  background: #f90;
+  border: 5px solid red;
+}
+
+body {
+  background: black;
+}
